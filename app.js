@@ -1,4 +1,4 @@
-const express = require("express");
+        const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 
@@ -8,7 +8,7 @@ const path = require("path");
 const Mongo_URL = ("mongodb://127.0.0.1:27017/wanderlust");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
-
+ 
 
 
 
@@ -129,7 +129,6 @@ app.delete("/listings/:id", async (req,res)=>{
 app.listen(8080, () => {
     console.log("Server is listening on port 8080")
 })
-
 
 
 
