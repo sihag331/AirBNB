@@ -1,2 +1,2 @@
-# AirBNB Clone
-This is my first full stack project
+# WanderLust
+This is my first full stack project 
