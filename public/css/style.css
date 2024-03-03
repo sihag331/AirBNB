@@ -1,40 +1,42 @@
-
-
-/* Navbar*/
-.navbar{
+  /* Navbar*/
+.navbar {
     height: 5rem;
-background-color: white;
+    background-color: white;
 }
 
-.fa-compass{
+.fa-compass {
     color: #fe424d;
     font-size: 2rem;
 
 }
 
-.nav-link{
+.nav-link {
     color: #222222 !important;
 }
 
 /* Footer */
 
-.f-info-links a{
-text-decoration: none;
-color: #222222;
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
 }
 
-.f-info-links a:hover{
-text-decoration: underline;
+.f-info-links a:hover {
+    text-decoration: underline;
 
- }
- 
-.f-info-links , .f-info-socials, .f-info-brand {
-    width: 100% ;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
     vertical-align: middle;
     display: flex;
     align-items: center;
     justify-content: center
-};
+}
+
+;
 
 
 
@@ -43,16 +45,16 @@ text-decoration: underline;
     margin-right: 1rem;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 1.2rem;
     margin-right: 1rem;
-} 
-
-.f-info-brand{
-width: 100%;
 }
 
-.f-info{
+.f-info-brand {
+    width: 100%;
+}
+
+.f-info {
     /* display: flex; */
     text-align: center;
     background-color: #ebebeb;
@@ -60,8 +62,25 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: space-evenly;
- 
+
 }
+
+;
+
+/* Cards*/
+
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+  
+};
+
+
+.card-img-top{
+    border-radius: 1rem !important;
+}
+
+
 
 
 
